@@ -1,3 +1,8 @@
+#
+# Luiz Felipe C Salgado
+# luizfelipecsalgado@gmail.com
+#
+
 import os
 
 paths = {"download_folder": "\\Downloads",

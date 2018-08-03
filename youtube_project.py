@@ -1,3 +1,8 @@
+#
+# Luiz Felipe C Salgado
+# luizfelipecsalgado@gmail.com
+#
+
 import core
 import settings
 import sys

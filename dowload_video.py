@@ -1,3 +1,8 @@
+#
+# Luiz Felipe C Salgado
+# luizfelipecsalgado@gmail.com
+#
+
 from datetime import datetime
 
 import strings
