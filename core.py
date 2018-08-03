@@ -9,7 +9,7 @@ def download_from_list():
         wtext = f.read()
         print(strings.ll)
         print(wtext)
-        print('-------------------')
+        print('-'*40)
         links = wtext.split('\n')
         sucess_downloads = []
         threads = []

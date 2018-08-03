@@ -35,7 +35,8 @@ def download_video(yt_link):
 
     for i,v in enumerate(videos_list.fmt_streams):
         print(strings.vi.format(i+1,v.subtype,v.resolution))
-        if (v.subtype == 'mp4' and v.resolution == '1080p') or (v.subtype == 'mp4' and v.resolution == '720p'):
+        if (v.subtype == 'mp4' and v.resolution == '1080p') or (v.subtype == 'mp4' and v.resolution == '720p')\
+                or (v.subtype == 'mp4' and v.resolution == '360p') :
             bq.append(i+1)
             print("{} {} added.".format(v.subtype,v.resolution))
 
@@ -47,7 +48,8 @@ def download_video(yt_link):
             option = int(input(strings.mopt))
         if option == 0: exit()
     else:
-        if bq is not None:
+        if bq is not []:
+            # print(bq)
             print('Best quality choice {}'.format(bq[0]))
             option = bq[0]
         else:
